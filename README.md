@@ -15,6 +15,7 @@ Notes to remmeber
 ```
 .CLASS {
 font-size: 15px;
+}
 ```
 
  ### Challenge 1:
