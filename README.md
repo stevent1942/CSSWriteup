@@ -27,6 +27,7 @@ This will cause all elements with the "CLASS" Class to have a font size of 15px.
 <p> today is such a <span>good morning!</span> I'm so happy to be outside today. </p>
 </div>
 ```
+Now, whatever class I put inside the div will edit both the h1 and paragraph, and the class I put inside the span will only edit the "good morning" text.
 
  ### Challenge 1:
  The first challenge I encountered was why my lists wasn't working in HTML. Whenver I made code for a list I would do this:
