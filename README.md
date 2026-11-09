@@ -25,6 +25,7 @@ This will cause all elements with the "CLASS" Class to have a font size of 15px.
 <div>
 <h1> Good Morning! </h1>
 <p> today is such a <span>good morning!</span> I'm so happy to be outside today. </p>
+</div>
 ```
 
  ### Challenge 1:
