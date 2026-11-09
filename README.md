@@ -10,7 +10,10 @@ CSS, also standing for Cascading Style Sheets allows you to edit and customize a
 ### Lesson Summary for Markdown
 Notes to remmeber
 
-
+**__Classes__**
+* To create a class, we first need to add a "." at the start of the line follwed by the name of the class. Afterwards, add "{}" where in between those will be the set of code to decorate/customize certain texts or images. An example will be...
+```.CLASS {
+font-size: 15px;```
 
  ### Challenge 1:
  The first challenge I encountered was why my lists wasn't working in HTML. Whenver I made code for a list I would do this:
