@@ -29,6 +29,13 @@ This will cause all elements with the "CLASS" Class to have a font size of 15px.
 ```
 Now, whatever class I put inside the div will edit both the h1 and paragraph, and the class I put inside the span will only edit the "good morning" text.
 
+**__Padding and Margin__**
+* Padding is the space inside an element's border.
+* Margin is the space outside an element's border.
+* Can be edited like this.
+`Padding: 20px, 20px, 20px, 20px;`
+* Order goes like (Top, Right, Bottom, Left)
+
  ### Challenge 1:
  The first challenge I encountered was why my lists wasn't working in HTML. Whenver I made code for a list I would do this:
 1. `<ol> HEADER `
