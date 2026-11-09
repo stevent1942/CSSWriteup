@@ -19,6 +19,14 @@ font-size: 15px;
 ```
 This will cause all elements with the "CLASS" Class to have a font size of 15px.
 
+**__Divs and Spans__**
+* Divs can be used to group up multiple elements to edit them together, while span can be used to take a select few inside a element and only edit those instead of the entire element.
+```
+<div>
+<h1> Good Morning! </h1>
+<p> today is such a <span>good morning!</span> I'm so happy to be outside today. </p>
+```
+
  ### Challenge 1:
  The first challenge I encountered was why my lists wasn't working in HTML. Whenver I made code for a list I would do this:
 1. `<ol> HEADER `
