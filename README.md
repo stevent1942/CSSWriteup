@@ -37,16 +37,18 @@ Now, whatever class I put inside the div will edit both the h1 and paragraph, an
 * Order goes like (Top, Right, Bottom, Left)
 
  ### Challenge 1:
- The first challenge I encountered was why my lists wasn't working in HTML. Whenver I made code for a list I would do this:
-1. `<ol> HEADER `
-2.  `<li> something`
-3.  `<li> something`
-4.  `</ol>`
-###### I couldn't understand why it wasn't working, until I realized that even the `<li>` for the list needs an ending `</li>` as well. So I fixed it by doing this.
-1. `<ol> HEADER `
-2.  `<li> something </li>`
-3.  `<li> something </li>`
-4.  `</ol>`
+ The first challenge I encountered was why my class wouldn't work, even though I added the class to the elemnt. For the CSS code, I would do this.
+```
+CLASS {
+font-size: 15;
+}
+```
+Seeing this, I thought I did everything perfectly, but if you look closer, I have two mistakes. Firstly, for making a class, you need a "." at the start. Second, I didn't ass "px" at the end of the number for font size. These cause the class to not work as 15 isn't a valid size and without the ".", it isn't a class. I fixed it all at the end and it looked more like this.
+```
+.CLASS {
+font-size: 15px;
+}
+```
 
  ### Takeaway
- One takeaway I learned was even the slightest and most minor mistake in coding can cause errors and cause it not to work properly. For example, forgetting to add a closing tag can cause a list to not work as coded to. Also learned how Markdown and HTML have completely seperate ways of making text and lines of code, but both have the same use.
+One takeaway I learned was how much divs and spans can help out your code. Without divs and spans, elements will be harder to edit together and mostly will not work well or work at all. Another one is how organizing your code helps out a lot. Indenting for your code and using divs and spans all help you organize your code, making you feel less loss when doing work and cause you to create less errors and know where everything is and does.
